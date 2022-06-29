@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TED</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/stiltot.css" />
+    <style>
+      .all {
+        background: radial-gradient(circle, #fff 35%, #d5eaff 65%);
+        background-attachment: fixed;
+        background-position: center;
+      }
+      .box1 {
+        width: 40rem;
+        height: calc(100vh - 8rem);
+        background: #fff;
+        border: 0.5rem solid transparent;
+        margin: 2.5rem auto;
+        padding: 1.125rem 1.25rem;
+        box-sizing: content-box;
+        overflow: auto;
+        border-radius: 1.5rem;
+        box-shadow: 0.7rem 0.5rem 1rem 0.1rem rgba(0, 0, 0, 55%);
+      }
+      .flexheader {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      h1 {
+        width: fit-content;
+        font-size: 3.5rem;
+        font-family: "Montserrat", sans-serif;
+        margin: 0rem;
+        padding: 0.5rem 0rem;
+      }
+      .menu {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      a {
+        font-family: "Work Sans", sans-serif;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        border-inline-end: 0.4rem solid black;
+        text-decoration-line: none;
+        border-radius: 3rem;
+      }
+      a:link,
+      a:visited {
+        color: black;
+      }
+      a:hover {
+        color: white;
+        background-color: #425979;
+        border-inline-end: 0.4rem solid #71cf89;
+      }
+      .box2 {
+        box-sizing: content-box;
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      h2 {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 600;
+        font-size: 2.5rem;
+        margin: 0rem;
+        width: 12rem;
+        height: 9rem;
+      }
+      p.subtitle {
+        font-family: "Work Sans", sans-serif;
+        font-size: 1rem;
+        margin: 0rem;
+        width: 19rem;
+        height: 4rem;
+      }
+      a.video {
+        padding: 0.5rem 0.5rem;
+        border: 0.2rem solid transparent;
+        text-decoration-line: none;
+        font-family: "Work Sans", sans-serif;
+        font-size: 0.8rem;
+        border-radius: 3rem;
+        background-color: #fcc840;
+        text-transform: uppercase;
+      }
+      a.video:hover {
+        color: white;
+        background-color: #ee8038;
+        border-radius: 3rem;
+      }
+      img.il {
+        width: 18rem;
+        height: 17rem;
+      }
+      .box3 {
+        font-family: "Work Sans", sans-serif;
+        height: fit-content;
+        margin: 1rem 0.2rem;
+        color: black;
+        font-size: 1.1rem;
+        text-align: justify;
+        box-sizing: content-box;
+      }
+    </style>
+  </head>
+  <body class="all">
+    <div class="box1">
+      <header class="flexheader">
+        <h1>Ce e TED?</h1>
+        <nav class="menu">
+          <a href="index.html">ACASĂ</a>
+          <a href="index.html">TED</a>
+          <a href="index.html">TEDx</a>
+        </nav>
+        <div class="box2">
+          <h2>Cu TED, investești în tine!</h2>
+          <p class="subtitle">
+            Puteți viziona gratuit peste 2000 de discuții TED, pline de idei
+            care au schimbat lumea.
+          </p>
+          <a class="video" href="https://www.ted.com/talks">Începe acum</a>
+        </div>
+        <img
+          class="il"
+          src="img/img1.jpg"
+          alt="Ilustratie dezvoltare personala"
+        />
+      </header>
+      <main class="box3">
+        <p>
+          TED este marcă a conferințelor în care unii dintre cei mai importanţi
+          gânditori şi activiști ai lumii sunt invitați să împărtășească
+          domeniile în care sunt cei mai pasionați. TED definește misiunea sa ca
+          “idei care merită să fie răspândite”. “TED” vine de la Technology,
+          Entertainment, Design, trei domenii largi care, în mod colectiv, ne
+          modelează viitorul. Însă, evenimentul este mai amplu, prezentând idei
+          care contează în orice disciplină.
+        </p>
+        <p>
+          Participanți au numit-o “cel mai bun tratament pentru creier” și “o
+          călătorie de patru zile în viitor”. Publicul divers (CEO, oameni de
+          știință, filantropi, antreprenori), este aproape la fel de
+          extraordinar ca şi speakerii, printre care amintim pe Bill Clinton,
+          Bill Gates, Sir Richard Branson, Philippe Starck și Bono.
+        </p>
+        <p>
+          Prelegerile, de asemenea, numite TED Talks, acoperă o gamă largă de
+          subiecte, inclusiv ştiință, artă şi design, politică, educație,
+          cultură, afaceri, probleme globale, tehnologie, dezvoltare și
+          divertisment.
+        </p>
+      </main>
+    </div>
+  </body>
+</html>
